@@ -9,7 +9,7 @@ namespace Benchmarks
 	{
 		static void Main(string[] args)
 		{
-			BenchmarkRunner.Run<CallVsCallvirt>();
+			BenchmarkRunner.Run<ReadonlyStructVsStruct>();
 		}
 	}
 }
